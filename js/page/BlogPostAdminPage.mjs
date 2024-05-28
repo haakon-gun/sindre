@@ -1,8 +1,8 @@
-import { getPosts, deletePost } from '../pageAPI/fetchPostAdmin.mjs';
-import { addHeader } from '../pageElementes/header.mjs';
-import { addFooter } from '../pageElementes/footer.mjs';
-import { clearAndLoadCSS} from '../pageElementes/stylesManager.mjs';
-import { loadCSS} from '../pageElementes/stylesLoader.mjs';
+import { getPosts, deletePost } from '/Exam-project/pageAPI/fetchPostAdmin.mjs';
+import { addHeader } from '/Exam-project/pageElementes/header.mjs';
+import { addFooter } from '/Exam-project/pageElementes/footer.mjs';
+import { clearAndLoadCSS} from '/Exam-project/pageElementes/stylesManager.mjs';
+import { loadCSS} from '/Exam-project/pageElementes/stylesLoader.mjs';
 
 //Function to create dashboard
 export const displayDashboardPage = async () => {
