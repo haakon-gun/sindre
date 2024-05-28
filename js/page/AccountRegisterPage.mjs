@@ -7,7 +7,7 @@ import { loadCSS} from '../pageElementes/stylesLoader.mjs';
 //Function to create register page
 export const displayRegisterPage = async () => {
     try {
-        await loadCSS('./styles/accountForm.css');
+        await loadCSS('../styles/accountForm.css');
     } catch (error) {
         console.error('Error loading CSS:', error);
         return;
