@@ -7,7 +7,7 @@ import { loadCSS} from '../pageElementes/stylesLoader.mjs';
 //Function to create login page
 export const displayLoginPage = async () => {
     try {
-        await loadCSS('./styles/accountForm.css');
+        await loadCSS('../styles/accountForm.css');
     } catch (error) {
         console.error('Error loading CSS:', error);
         return;
