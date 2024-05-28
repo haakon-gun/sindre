@@ -1,10 +1,10 @@
-import { fetchPosts } from '../pageAPI/fetchPosts.mjs';
-import { createCarousel } from '../pageElementes/carousel.mjs';
-import { addHeader } from '../pageElementes/header.mjs';
-import { addFooter } from '../pageElementes/footer.mjs';
-import { clearAndLoadCSS} from '../pageElementes/stylesManager.mjs';
-import { loadCSS} from '../pageElementes/stylesLoader.mjs';
-import { initializeFilters } from '../pageElementes/filterSort.mjs'; 
+import { fetchPosts } from '/Exam-project/pageAPI/fetchPosts.mjs';
+import { createCarousel } from '/Exam-project/pageElementes/carousel.mjs';
+import { addHeader } from '/Exam-project/pageElementes/header.mjs';
+import { addFooter } from '/Exam-project/pageElementes/footer.mjs';
+import { clearAndLoadCSS} from '/Exam-project/pageElementes/stylesManager.mjs';
+import { loadCSS} from '/Exam-project/pageElementes/stylesLoader.mjs';
+import { initializeFilters } from '/Exam-project/pageElementes/filterSort.mjs'; 
 
 
 //Function to Create BlogFeedPage
